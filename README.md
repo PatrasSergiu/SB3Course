@@ -15,3 +15,4 @@ I also learned how to:
 - **Use the RestClient**
 - **Use the HTTP Client interface**:
 - **Test the application using JUnit and Mockito**
+- **Configure the compose.yaml file to use Docker**
