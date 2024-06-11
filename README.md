@@ -10,3 +10,8 @@ I tested it with:
 - **Spring Data JPA**
 
 For the database I used both a PostgresSQL image in Docker Desktop and the PostgresSQL server on Windows.
+
+I also learned how to:
+- **Use the RestClient**
+- **Use the HTTP Client interface**:
+- **Test the application using JUnit and Mockito**
