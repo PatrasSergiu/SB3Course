@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.psa.sb3course.user.UserRestClientTest" tests="2" skipped="0" failures="0" errors="0" timestamp="2024-06-11T20:44:36" hostname="DESKTOP-M1RJMPR" time="0.747">
+  <properties/>
+  <testcase name="shouldFindAllUsers()" classname="com.psa.sb3course.user.UserRestClientTest" time="0.737"/>
+  <testcase name="shouldFindUserById()" classname="com.psa.sb3course.user.UserRestClientTest" time="0.008"/>
+  <system-out><![CDATA[23:44:34.860 [Test worker] INFO org.springframework.test.context.support.AnnotationConfigContextLoaderUtils -- Could not detect default configuration classes for test class [com.psa.sb3course.user.UserRestClientTest]: UserRestClientTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+23:44:35.022 [Test worker] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper -- Found @SpringBootConfiguration com.psa.sb3course.Application for test class com.psa.sb3course.user.UserRestClientTest
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+
+ :: Spring Boot ::                (v3.3.0)
+
+2024-06-11T23:44:35.413+03:00  INFO 21776 --- [    Test worker] c.psa.sb3course.user.UserRestClientTest  : Starting UserRestClientTest using Java 21.0.2 with PID 21776 (started by alind in C:\Users\alind\IdeaProjects\SB3Course)
+2024-06-11T23:44:35.414+03:00  INFO 21776 --- [    Test worker] c.psa.sb3course.user.UserRestClientTest  : No active profile set, falling back to 1 default profile: "default"
+2024-06-11T23:44:36.220+03:00  INFO 21776 --- [    Test worker] c.psa.sb3course.user.UserRestClientTest  : Started UserRestClientTest in 1.113 seconds (process running for 2.199)
+User[id=1, name=Leanne Graham, username=Bret, email=Sincere@april.biz, phone=1-770-736-8031 x56442, website=hildegard.org, address=Address[street=Kulas Light, suite=Apt. 556, city=Gwenborough, zipcode=92998-3874, geo=Geo[lng=81.1496, lat=-37.3159]], company=Company[name=Romaguera-Crona, catchPhrase=Multi-layered client-server neural-net, bs=harness real-time e-markets]]
+]]></system-out>
+  <system-err><![CDATA[WARNING: A Java agent has been loaded dynamically (C:\Users\alind\.gradle\caches\modules-2\files-2.1\net.bytebuddy\byte-buddy-agent\1.14.16\4a451ee6484abac3a498df0f3b33ed00a6fced4d\byte-buddy-agent-1.14.16.jar)
+WARNING: If a serviceability tool is in use, please run with -XX:+EnableDynamicAgentLoading to hide this warning
+WARNING: If a serviceability tool is not in use, please run with -Djdk.instrument.traceUsage for more information
+WARNING: Dynamic loading of agents will be disallowed by default in a future release
+]]></system-err>
+</testsuite>
